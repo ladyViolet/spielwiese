@@ -1,0 +1,31 @@
+#portugal-map {
+  width: 90vw;
+  margin: 0 auto;
+}
+#portugal-map svg {
+  width: 100%;
+}
+
+#all-you-can-surf:hover, #dreamsea-centro:hover {
+  filter: brightness(0.7);
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-3px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+#all-you-can-surf {
+  animation: float 3s ease-in-out infinite;
+}
+
+#dreamsea-centro {
+  animation: float 3s ease-in-out infinite;
+  animation-delay: 2s;
+}/*# sourceMappingURL=stylesheet.css.map */
