@@ -3,7 +3,7 @@
   src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
 }
 h1 {
-  font-family: "Montserrat";
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: black;
   text-align: center;
@@ -16,6 +16,9 @@ h1 {
   padding-bottom: 200px;
 }
 .portugal-map svg {
+  width: 100%;
+}
+.portugal-map img {
   width: 100%;
 }
 
