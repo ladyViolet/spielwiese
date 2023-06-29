@@ -3,7 +3,7 @@
   src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
 }
 h1 {
-  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: black;
   text-align: center;
