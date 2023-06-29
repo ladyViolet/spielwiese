@@ -12,16 +12,17 @@ h1 {
 }
 
 .portugal-map {
-    max-width: 90vw;
+    width: 90vw;
     margin: 0 auto;
     padding-bottom: 200px;
 
     svg {     
-        max-width: 100%;
+        width: 100%;
     }
 
     img {
-        max-width: 100%;
+        width: 100%;
+        height: auto;
     }
 }
 

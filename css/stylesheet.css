@@ -11,15 +11,16 @@ h1 {
 }
 
 .portugal-map {
-  max-width: 90vw;
+  width: 90vw;
   margin: 0 auto;
   padding-bottom: 200px;
 }
 .portugal-map svg {
-  max-width: 100%;
+  width: 100%;
 }
 .portugal-map img {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 #all-you-can-surf:hover, #dreamsea-centro:hover {
