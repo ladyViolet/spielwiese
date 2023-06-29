@@ -15,12 +15,13 @@ h1 {
     width: 90vw;
     margin: 0 auto;
     padding-bottom: 200px;
+
     svg {     
-        width: 100%;
+        max-width: 100%;
     }
 
     img {
-        width: 100%;
+        max-width: 100%;
     }
 }
 
