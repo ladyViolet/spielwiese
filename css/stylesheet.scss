@@ -11,15 +11,20 @@ h1 {
     font-weight: bold;
     color: black;
     text-align: center;
-    margin-bottom: 100px;
+    padding: 1em 0;
+}
+
+.intro {
+    background-color: #e7e7e7;
 }
 
 //checkbox
 .checkboxes {
-    margin-left: 1em;
+    padding: 1em;
 }
  /* Customize the label (the container) */
  .container {
+    display: inline;
     position: relative;
     padding-left: 35px;
     margin-bottom: 12px;
@@ -89,7 +94,7 @@ h1 {
 .portugal-map {
     width: 90vw;
     margin: 0 auto;
-    padding-bottom: 200px;
+    padding: 2em 0;
 
     svg {     
         width: 100%;
