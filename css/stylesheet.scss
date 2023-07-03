@@ -18,6 +18,14 @@ h1 {
     background-color: #e7e7e7;
 }
 
+.accordion-body {
+  padding: unset;
+}
+
+.accordion-header {
+  padding: unset !important;
+}
+
 //checkbox
 .checkboxes {
     padding: 1em;
@@ -107,9 +115,21 @@ h1 {
 }
 
 //HOVER_BEHAVIOUR
-#all-you-can-surf:hover, #dreamsea-centro:hover {
+#portugal-map-final {
+  a:hover {
+    filter: brightness(.9);
+  }
+  a:active {
     filter: brightness(.7);
+  }
 }
+
+#portugal-map-v1 {
+  #all-you-can-surf:hover, #dreamsea-centro:hover {
+      filter: brightness(.7);
+  }
+}
+
 
 //FLOAT_ANIMATION
 @keyframes float {
@@ -124,11 +144,13 @@ h1 {
 	}
 }
 
-#all-you-can-surf {
-    animation: float 3s ease-in-out infinite;
-}
+#portugal-map-v1 {
+  #all-you-can-surf {
+      animation: float 3s ease-in-out infinite;
+    }
 
-#dreamsea-centro {
-    animation: float 3s ease-in-out infinite;
-    animation-delay: 2s;
+    #dreamsea-centro {
+        animation: float 3s ease-in-out infinite;
+        animation-delay: 2s;
+  }
 }
