@@ -205,15 +205,15 @@ h1 {
 
 .pulse-5 {
   animation: pulse-animation-2 3s infinite;
-  animation-delay: 250ms;
+  animation-delay: 500ms;
 }
 
 .pulse-6 {
   animation: pulse-animation-2 3s infinite;
-  animation-delay: 500ms;
+  animation-delay: 1000ms;
 }
 
 .pulse-7 {
   animation: pulse-animation-2 3s infinite;
-  animation-delay: 750ms;
+  animation-delay: 1500ms;
 }/*# sourceMappingURL=stylesheet.css.map */
