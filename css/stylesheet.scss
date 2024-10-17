@@ -114,6 +114,30 @@ h1 {
     }
 }
 
+.portugal-regions-map {
+  width: 90vh;
+  margin: 0 auto;
+  padding: 2em 0;
+
+  svg {     
+      width: 100%;
+  }
+
+  img {
+      width: 100%;
+      height: auto;
+  }  
+  
+  @media only screen and (max-width: 600px) {
+    width: 90vw;
+
+    svg {     
+      height: 100%;
+    }
+  }
+}
+
+
 //HOVER_BEHAVIOUR
 #portugal-map-final {
   a:hover {
@@ -153,4 +177,66 @@ h1 {
         animation: float 3s ease-in-out infinite;
         animation-delay: 2s;
   }
+}
+
+//PULSE ANIMATION
+
+@keyframes pulse-animation {
+  0% {
+		opacity: 0;
+	}
+
+	50% {
+	    opacity: 1;
+	}
+
+	100% {
+	    opacity: 0;
+		}
+}
+
+@keyframes pulse-animation-2 {
+  0% {
+		stroke-width: .99;
+    stroke: black;
+	}
+
+	50% {
+    stroke-width: .468;
+    stroke: white;
+	}
+
+	100% {
+    stroke-width: .99;
+    stroke: black;
+		}
+}
+
+.pulse-1 {
+  animation: pulse-animation 2s infinite;
+}
+.pulse-2 {
+  animation: pulse-animation 2s infinite;
+  animation-delay: 250ms;
+}
+.pulse-3 {
+  animation: pulse-animation 2s infinite;
+  animation-delay: 500ms;
+}
+
+
+.pulse-4 {
+  animation: pulse-animation-2 3s infinite;
+}
+.pulse-5 {
+  animation: pulse-animation-2 3s infinite;
+  animation-delay: 250ms;
+}
+.pulse-6 {
+  animation: pulse-animation-2 3s infinite;
+  animation-delay: 500ms;
+}
+.pulse-7 {
+  animation: pulse-animation-2 3s infinite;
+  animation-delay: 750ms;
 }
