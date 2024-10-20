@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.intro {
+    background-color: #e7e7e7;
+}
+
+.accordion-body {
+  padding: unset;
+}
+
+.accordion-header {
+  padding: unset !important;
+}
+
+
+.portugal-regions-map {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 2em 0;
+
+  svg {     
+      width: 100%;
+  }
+
+  img {
+      width: 100%;
+      height: auto;
+  }
+}
+
+//PULSE ANIMATION
+@keyframes pulse-animation {
+  0% {
+		opacity: 0;
+	}
+
+	50% {
+	    opacity: 1;
+	}
+
+	100% {
+	    opacity: 0;
+		}
+}
+
+@keyframes pulse-animation-2 {
+  0% {
+		stroke-width: .99;
+    stroke: black;
+	}
+
+	50% {
+    stroke-width: .468;
+    stroke: white;
+	}
+
+	100% {
+    stroke-width: .99;
+    stroke: black;
+		}
+}
+
+.pulse-1 {
+  animation: pulse-animation 2s infinite;
+}
+.pulse-2 {
+  animation: pulse-animation 2s infinite;
+  animation-delay: 250ms;
+}
+.pulse-3 {                                           
+  animation: pulse-animation 2s infinite;
+  animation-delay: 500ms;
+}
+
+
+.pulse-4 {
+  animation: pulse-animation-2 3s infinite;
+}
+.pulse-5 {
+  animation: pulse-animation-2 3s infinite;
+  animation-delay: 500ms;
+}
+.pulse-6 {
+  animation: pulse-animation-2 3s infinite;
+  animation-delay: 1000ms;
+}
+.pulse-7 {
+  animation: pulse-animation-2 3s infinite;
+  animation-delay: 1500ms;
+}
