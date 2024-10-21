@@ -42,7 +42,7 @@ h1 {
 .region-link:hover {
   filter: brightness(0.9);
 }
-.region-link:active {
+.region-link:active, .region-link:focus {
   filter: brightness(0.7);
 }
 

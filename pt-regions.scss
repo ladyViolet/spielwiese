@@ -46,7 +46,7 @@ h1 {
   &:hover {
     filter: brightness(.9);
   }
-  &:active {
+  &:active, &:focus {
     filter: brightness(.7);
   }
 }
