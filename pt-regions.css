@@ -39,11 +39,11 @@ h1 {
   height: auto;
 }
 
-.region-link:hover {
-  filter: brightness(0.9);
-}
 .region-link:active {
   filter: brightness(0.7);
+}
+.region-link:hover {
+  filter: brightness(0.9);
 }
 
 @keyframes pulse-animation {

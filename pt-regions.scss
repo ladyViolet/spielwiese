@@ -2,6 +2,7 @@
     font-family: "Montserrat";
     src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -42,12 +43,12 @@ h1 {
   }
 }
 
-.region-link {
-  &:hover {
-    filter: brightness(.9);
-  }
+.region-link {  
   &:active {
     filter: brightness(.7);
+  }
+  &:hover {
+    filter: brightness(.9);
   }
 }
 
