@@ -1,4 +1,5 @@
 const master = gsap.timeline({paused:true}); //create a paused timeline
+const animation_only = gsap.timeline()
 
 master.to('#start-container', {
     opacity: 0
