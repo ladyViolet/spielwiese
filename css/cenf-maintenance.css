@@ -7,10 +7,14 @@
   transform: translate(-50%, -50%);
 }
 
-#insta-link:hover {
+#follow-us:hover {
     filter: brightness(.8);
     transform: scale(.98);
     transform-origin: center;
+}
+
+#cursor-pointer {
+  fill: #22222268;
 }
 
 #layer2 {

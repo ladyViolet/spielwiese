@@ -65,13 +65,27 @@ master.from('.layers', {
             amount: .1
         }
 },7)
-.from('#layer2', {
-    display: "none",
-    scale: .7,
-    transformOrigin: "center",
-    duration: 2,
-    ease: "elastic.out(1,0.3)"
-},10);
+    .from('#follow-us', {
+        display: "none",
+        scale: .7,
+        transformOrigin: "center",
+        duration: 2,
+        ease: "elastic.out(1,0.3)"
+},10)
+    .from('#instagram-icon', {
+        display: "none",
+        duration: 2
+},11)
+    .from('#cursor-pointer', {
+        display: "none",
+        duration: 2
+},12)
+    .to('#cursor-pointer', {
+        scale: .4,
+        transformOrigin: "center",
+        repeat: -1,
+        yoyo: true
+},12);
 
 window.onload = (event) => {
     master.play();
