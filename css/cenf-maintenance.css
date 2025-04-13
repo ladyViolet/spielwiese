@@ -8,5 +8,23 @@
 }
 
 #insta-link:hover {
-    filter: brightness(.5);
+    filter: brightness(.8);
+    transform: scale(.98);
+    transform-origin: center;
+}
+
+#layer2 {
+
+  translate: 23px 75px !important;
+  transform: scale(.8) !important;
+
+  @media only screen and (min-width: 800px) {
+    translate: 23px 70px !important;
+  }  
+
+  @media only screen and (min-width: 1200px) {
+    translate: 28px 65px !important;
+    transform: scale(.7) !important;
+  }
+  
 }
